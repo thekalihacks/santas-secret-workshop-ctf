@@ -21,7 +21,7 @@ cd santas-secret-workshop-ctf
 
 Then go into the `challenges/` directory and select the challenge you want to work on. Each folder contains the necessary files (pcap, binaries, zipped web apps, etc.).
 
-Once you solve a challenge and find a flag, submit it to your CTF platform (e.g., TryHackMe, CTFd, etc.).
+Once you solve a challenge and find a flag, submit it to your CTF platform (TryHackMe).
 
 ## Folder Structure
 
