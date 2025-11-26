@@ -16,7 +16,7 @@ Participants can clone or download this repo to access the challenges, solve the
 ## How to Use
 
 ```bash
-git clone https://github.com/<your-username>/santas-secret-workshop-ctf.git
+git clone https://github.com/thekalihacks/santas-secret-workshop-ctf.git
 cd santas-secret-workshop-ctf
 ```
 
