@@ -44,25 +44,36 @@ python3 -m ensurepip --upgrade
 ```
 
 # Windows — Setup Instructions
+```bash
 Download the latest Python 3 installer from python.org — choose the Windows installer. During installation, make sure to check “Add Python 3 to PATH”. 
+```
 
 After installation, open a new Command Prompt or PowerShell window, and verify:
 
+```bash
 python --version
 pip --version
+```
 
 (Recommended) Create and activate a virtual environment:
 
+```bash
 python -m venv ctf-env
 ctf-env\Scripts\activate
+```
 
 Install required Python packages:
 
+```bash
 pip install cryptography
 pip install scapy
+```
 
 If pip is missing or not functioning, you can initialise it with:
+
+```bash
 python -m ensurepip --upgrade
+```
 
 Additional Tools (Recommended, Not Always Required)
 A packet analysis tool (e.g. Wireshark or TShark) — for tasks involving PCAP / network forensic analysis.
