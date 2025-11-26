@@ -4,9 +4,11 @@ Use this guide to prepare your environment before attempting the challenges. It 
 
 ---
 
-## macOS — Setup Instructions
+## macOS & Windows — Setup Instructions
 
 ```bash
+#macOS setup instructions:
+
 # 1. (Optional) Install Homebrew if not installed yet
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
@@ -30,7 +32,7 @@ If pip3 install … fails (for example due to missing components or pip), you ca
 
 python3 -m ensurepip --upgrade
 
-Windows — Setup Instructions
+# Windows — Setup Instructions
 Download the latest Python 3 installer from python.org — choose the Windows installer. During installation, make sure to check “Add Python 3 to PATH”. 
 
 After installation, open a new Command Prompt or PowerShell window, and verify:
